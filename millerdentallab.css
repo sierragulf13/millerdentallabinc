@@ -1,0 +1,40 @@
+body {
+    background-color: #DDD;
+    color: #444;
+    font-family: sans-serif;
+}
+h1 {
+    font-family: serif;
+}
+p {  
+    text-indent: 2.0em;
+    font-size: 16pt;
+}
+/* Add a background color to the top navigation */
+.topnav {
+    background-color: #555;
+    overflow: hidden;
+    font-family: serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #DDD;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #AAA;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
